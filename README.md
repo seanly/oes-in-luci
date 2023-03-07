@@ -1,5 +1,6 @@
 # oes in luci
 
+```
 docker pull seanly/oes-in-luci:latest
 docker run -d \
   --name luci \
