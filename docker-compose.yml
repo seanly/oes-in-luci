@@ -1,0 +1,6 @@
+version: "3"
+services:
+  oes-in-luci:
+    build:
+      context: ./
+    image: seanly/oes-in-luci
