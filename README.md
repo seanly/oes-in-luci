@@ -1,7 +1,9 @@
 # oes in luci
 
+
+## frpc
 ```
-docker pull seanly/oes-in-luci:latest
+docker pull seanly/oes-in-luci
 docker run -d \
   --name luci \
   --restart unless-stopped \
@@ -15,6 +17,6 @@ docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   --tmpfs /tmp:exec \
   --tmpfs /run \
-  seanly/oes-in-luci:latest
+  seanly/oes-in-luci
 ```
 
